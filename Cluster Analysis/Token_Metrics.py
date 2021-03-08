@@ -1,3 +1,8 @@
+"""
+These three functions are extremely useful and fast in estimating the similarities between pairs of
+strings (texts). They divide the texts into shingles or tokens, compare them and return the similarity 
+value using three different string metrics: Jaccard similarity, Sørensen_Dice and Overlap Coefficient.
+"""
 
 from collections import Counter
         
